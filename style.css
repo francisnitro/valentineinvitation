@@ -247,10 +247,10 @@ body {
   width: 100%;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1080px) {
   #envelope {
-    transform: scale(0.8);
-    top: 50px;
+    transform: scale(1.5);
+    bottom: 50px;
   }
   
   .envlope-wrapper {
@@ -294,3 +294,4 @@ body {
   background-color: #d9534f;
   color: #fff;
 }
+
