@@ -18,13 +18,12 @@ $(document).ready(function () {
 
   function open() {
     envelope.addClass("open").removeClass("close");
-    music.play();
+    music.play(); // 🎵 start music
   }
 
   function close() {
     envelope.addClass("close").removeClass("open");
-    music.pause(); 
-    music.currentTime = 0; 
+    music.pause(); // optional: stop music
+    music.currentTime = 0; // optional: restart next time
   }
 });
-
